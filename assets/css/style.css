@@ -27,7 +27,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     font-size: 1.5em;
-
+    height: 100%;
 }
 
 footer {
@@ -81,7 +81,7 @@ footer {
     width: 130px;
     height: 70px;
     color: rgb(212, 160, 29);
-    margin-bottom: 2%;
+    margin-bottom: 3%;
 }
 
 #stickyFooter{
@@ -102,6 +102,12 @@ footer {
         padding: 2%
         }
 
+            .index-container, .contact-container, .portfolio-container{
+            background-color: rgba(95, 95, 95, 0.7);
+            margin-top: 10%;
+            text-align: justify;
+        }
+
     body {
         position: auto;
         font-family: 'Righteous', cursive;
@@ -112,6 +118,7 @@ footer {
         background-position: center;
         background-attachment: fixed;
         color: rgb(212, 160, 29);
+        height: 100%;
         }
 
     footer {
@@ -190,16 +197,11 @@ footer {
             height: 100%;
             }
 
-        .custom-container{
-            background-color: rgba(100, 100, 100, 0.6);
-        }
-
-        .contact-container{
-            background-color: rgba(100, 100, 100, 0.7);
-            margin-top: 30px;
-            width: 100%;
-            height: 100%;
-        }
+            .index-container, .contact-container, .portfolio-container{
+                background-color: rgba(95, 95, 95, 0.7);
+                margin-top: 10%;
+                text-align: justify;
+            }
 
 
         footer {
@@ -272,7 +274,6 @@ footer {
             background-color: rgba(95, 95, 95, 0.7);
             margin-top: 10%;
             text-align: justify;
-            width: 100%;
         }
 
 
@@ -287,6 +288,7 @@ footer {
                 background-attachment: fixed;
                 background-repeat: no-repeat;
                 color: rgb(212, 160, 29); 
+                height: 100%;
                 }
 
             footer {
