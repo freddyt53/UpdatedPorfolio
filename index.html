@@ -5,7 +5,8 @@
   <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -18,61 +19,60 @@
   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 </head>
 
-
 <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="true">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand">Menu</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav nav-tabs">
-            <li class="active">
-            <li><a href="index.html" class="fa fa-home">Home</a></li>
-            <li><a href="portfolio.html" class="fas fa-briefcase">Portfolio</a></li>
-            <li><a href="contact.html" class="fas fa-envelope">Contact</a></li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand " href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="fas fa-home">Home</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" class="fas fa-briefcase"><i class="fas fa-briefcase">Portfolio</i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html"><i class="fas fa-envelope">Contact</i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container clearifx index-container">
+    <div class="jumbotron jumbotron-fluid" id="jumbo">
+      <h1 class="display-4">Welcome!</h1>
+      <p class="lead">Thank you for stopping by!</p>
+    </div>
+    <!-- <div class="media">
+      <img src="assets/images/mypic.jpg" id="myPhoto" class="align-self-center mr-3" alt="cover-img">
+      <div class="media-body">
+        <h class="mt-0">About myself</h1>
+          <p>Hello there! My name's Freddy and I'am an aspiring developer from Santa Barbara, CA. I am working towwards creating
+            clean and minimalistic design all while having it work on multiple devcices, like phone and tablets.</p>
+          <p class="mb-1">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
       </div>
-    </nav>
+    </div> -->
+    <!-- <h1 style="padding: 5px;">Welcome!</h1>
+    <small class="text-muted">With faded secondary text</small> -->
+    <div class="col-sm-12">
+      <img class="img-fluid" style="max-width:30%; height: auto; margin-right: 20px; float:left;" src="assets/images/mypic.jpg"
+        alt="cover-img">
+      <p class="lead">
+        <p>Hello there! My name's Freddy and I'am an aspiring developer from Santa Barbara, CA. I am constantly
+          learning and working towards creating clean and minimalistic design all while having it work on multiple
+          devcices, like phone and tablets. </p>
+        <br>
+        <p>I enjoy working on side project to allow me to continue learning and improving myself as a developer. I love
+          sports and have been doing some type of sports activity for the better part of my life.</p>
+    </div>
   </div>
-  <div class="container">
-      <div class="jumbotron jumbotron-fluid" id="jumbo">
-        <div class="container">
-          <h1 class="display-4">Welcome!</h1>
-          <p class="lead">Thank you for stopping by!</p>
-        </div>
-      </div>
-  <div class="container">
-      <div class="media">
-          <img src="assets/images/mypic.jpg" id="myPhoto" class="align-self-start mr-3" alt="cover-img">
-          <div class="media-body">
-            <h class="mt-0">About myself</h1>
-            <p>Hello there! My name's Freddy and I'am an aspiring developer from Santa Barbara, CA.  I am working on clean and minimalistic design all while having it work on multiple devcices, like phone and tablets.</p>
-            <p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-          </div>
-        </div>
-    <!-- <h1 style="padding: 5px;">Welcome!</h1> -->
-    <!-- <small class="text-muted">With faded secondary text</small> -->
-    <!-- <img style="max-width:30%; height: auto; margin-right: 20px; float:left;" src="assets/img/mypic.jpg" alt="cover-img">
-    <p class="lead">
-      <p>Hello there! My name's Freddy and I'am an aspiring developer from Santa Barbara, CA.  I am working on clean and minimalistic design all while having it work on multiple devcices, like phone and tablets.  </p>
-      <br>
-      <p>I enjoy working on side project to allow me to continue learning and improving myself as a developer.</p>
-  </div> -->
-</div>
-  <footer class="container-fluid text-center">
-    <p>You can find me at: <a href="https://github.com" target="github"><img src="assets/images/github.png"
-          id="img"></a>
-      <a href="https://linkedin.com" target="linkedin"><img src="assets/images/linkedin.png"
-          id="img"></a>
-      <a href="https://stackoverflow.com" target="stackoverflow"><img src="assets/images/stackover2.png"
-          id="img"></a>
+  <footer class="container-fluid text-center" id="stickyFooter">
+    <p>You can find me at: <a href="https://github.com" target="github"><img src="assets/images/github.png" id="img"></a>
+      <a href="https://linkedin.com" target="linkedin"><img src="assets/images/linkedin.png" id="img"></a>
+      <a href="https://stackoverflow.com" target="stackoverflow"><img src="assets/images/stackover2.png" id="img"></a>
       &#169;Copyright 2018, Freddy Torres</p>
   </footer>
 </body>

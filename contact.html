@@ -4,7 +4,8 @@
 <title>Contact Info</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -18,46 +19,46 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Menu</a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav nav-tabs">
-                    <li class="active"></li>
-                    <li><a href="index.html" class="fa fa-home">About</a></li>
-                    <li><a href="portfolio.html" class="fas fa-briefcase">Portfolio</a></li>
-                    <li><a href="about.html" class="fas fa-envelope">Contact</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home">Home</i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" class="fas fa-briefcase"><i class="fas fa-briefcase">Portfolio</i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fas fa-envelope">Contact</i></a>
+                </li>
+            </ul>
         </div>
     </nav>
-    <div class="container">
+    <div class="container clearfix contact-container">
         <form method="POST" action="https://formspree.io/freddyt5371@gmail.com">
-            <h2>Contact Me</h2>
+            <h1 class="text-center">Contact Me</h1>
             <div class="row">
                 <div class="col-md-12">
                     <div class="form-group">
                         <label>First Name</label>
-                        <input type="text" name="name" class="form-control" placeholder="First">
+                        <input type="text" name="name" id="userInput" class="form-control" placeholder="First">
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
                         <label>Last Name</label>
-                        <input type="text" name="lastname" class="form-control" placeholder="Last">
+                        <input type="text" name="lastname" id="userInput" class="form-control" placeholder="Last">
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="form-group">
                         <label>Phone Number</label>
-                        <input type="text" name="phonenumber" class="form-control" placeholder="000-000-0000">
+                        <input type="text" name="phonenumber" id="userInput" class="form-control" placeholder="000-000-0000">
                     </div>
                 </div>
             </div>
@@ -65,7 +66,7 @@
                 <div class="col-md-12">
                     <div class="form-group">
                         <label>Email address</label>
-                        <input type="email" name="_replyto" class="form-control" placeholder="example@email.com">
+                        <input type="email" name="_replyto" id="userInput" class="form-control" placeholder="example@email.com">
                     </div>
                 </div>
                 <div class="col-md-12">
@@ -74,20 +75,16 @@
                     </div>
                 </div>
             </div>
-            <input type="submit" value="send" class="btn btn-primary"></input>
+            <input type="submit" value="send" id="sendInput" class="btn btn-primary sendInput"></input>
         </form>
     </div>
-    
-    <div class="container">
-    <footer class="container-fluid text-center clear">
-        <p>You can find me at: <a href="https://github.com" target="github"><img src="assets/images/github.png"
-                    id="img"></a>
-            <a href="https://linkedin.com" target="linkedin"><img src="assets/images/linkedin.png"
-                    id="img"></a>
-            <a href="https://stackoverflow.com" target="stackoverflow"><img src="assets/images/stackover2.png"
-                    id="img"></a>
-            &#169;Copyright 2018, Freddy Torres</p>
-    </footer>
+    <div class="row">
+        <footer class="container-fluid text-center" id="stickyFooter">
+            <p>You can find me at: <a href="https://github.com" target="github"><img src="assets/images/github.png" id="img"></a>
+                <a href="https://linkedin.com" target="linkedin"><img src="assets/images/linkedin.png" id="img"></a>
+                <a href="https://stackoverflow.com" target="stackoverflow"><img src="assets/images/stackover2.png" id="img"></a>
+                &#169;Copyright 2018, Freddy Torres</p>
+        </footer>
     </div>
 </body>
 
