@@ -15,13 +15,31 @@
     padding-top: 30px;
 } */
 
-.index-container, .contact-container, .portfolio-container{
+.index-container, .contact-container{
     background-color: rgba(238, 238, 238, 0.84);
     margin-top: 10%;
     text-align: justify;
     /* width: 100%; */
     /* height: 100%; */
     margin-bottom: 30%;
+}
+
+.portfolio-container{
+    background-color: rgba(238, 238, 238, 0.84);
+    margin-top: 10%;
+    text-align: justify;
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-bottom: 10%;
+}
+
+#cardBody{
+    height: 100%;
+    width: 100%;
+}
+
+#cardText{
+    font-size: 75%;
 }
 
 body {
@@ -88,6 +106,13 @@ footer {
 
 #stickyFooter{
     margin-top: 15%;
+}
+
+#projectButton{
+    width: 30%;
+    height: 30px;
+    font-size: .55rem;
+    text-align: center;
 }
 
 
