@@ -16,7 +16,7 @@
 } */
 
 .index-container, .contact-container{
-    background-color: rgba(238, 238, 238, 0.84);
+    background-color: rgba(255, 255, 255, 0.70);
     margin-top: 10%;
     text-align: justify;
     /* width: 100%; */
@@ -25,12 +25,12 @@
 }
 
 .portfolio-container{
-    background-color: rgba(238, 238, 238, 0.84);
+    background-color: rgba(255, 255, 255, 0.70);
     margin-top: 10%;
     text-align: justify;
     /* width: 100%; */
     /* height: 100%; */
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 #cardBody{
@@ -111,7 +111,7 @@ footer {
 #projectButton{
     width: 30%;
     height: 30px;
-    font-size: .55rem;
+    font-size: .56rem;
     text-align: center;
 }
 
