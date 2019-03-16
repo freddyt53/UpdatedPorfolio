@@ -1,80 +1,159 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE <!DOCTYPE html>
+<html>
 
 <head>
-  <title>Home</title>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Freddy Torres</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-    crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-    crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/newPortfolio.css" />
+  <link href='https://fonts.googleapis.com/css?family=Pacifico|Open+Sans+Condensed:300' rel='stylesheet'
+    type='text/css'>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand " href="#">Menu</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html"><i class="fas fa-home">Home</i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html" class="fas fa-briefcase"><i class="fas fa-briefcase">Portfolio</i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html"><i class="fas fa-envelope">Contact</i></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="container clearfix index-container">
-    <div class="jumbotron jumbotron-fluid" id="jumbo">
-      <h1 class="display-4">Welcome!</h1>
-      <p class="lead">Thank you for stopping by!</p>
-    </div>
-    <!-- <div class="media">
-      <img src="assets/images/mypic.jpg" id="myPhoto" class="align-self-center mr-3" alt="cover-img">
-      <div class="media-body">
-        <h class="mt-0">About myself</h1>
-          <p>Hello there! My name's Freddy and I'am an aspiring developer from Santa Barbara, CA. I am working towwards creating
-            clean and minimalistic design all while having it work on multiple devcices, like phone and tablets.</p>
-          <p class="mb-1">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
-            natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+  <div class="main-content-wrapper">
+    <div class="main-content">
+      <div class="top-panel homepage-panel">
+        <div class="navigation-wrapper">
+          <ul class="navigation inner-content">
+            <li><a href="#" class="light">HOME</a></li>
+            <li><a href="#about" class="light">About Me</a></li>
+            <li><a href="#projects" class="light">Projects</a></li>
+            <li><a href="#contact" class="light">Contact Me</a></li>
+          </ul>
+        </div>
+        <div class="inner-content top-panel-text">
+          <h1>Freddy Torres</h1>
+          <p class="subtext" id="subtext">Aspiring Full Stack Engineer</p>
+          <div>
+          </div>
+        </div>
       </div>
-    </div> -->
-    <!-- <h1 style="padding: 5px;">Welcome!</h1>
-    <small class="text-muted">With faded secondary text</small> -->
-    <div class="col-md-12">
-      <img class="img-fluid" style="max-width:30%; height: auto; margin-right: 20px; float:left; margin-bottom: 5%" src="assets/images/mypic.jpg"
-        alt="cover-img">
-      <p class="lead">
-        <p>Hello there! My name's Freddy and I'am an aspiring developer from Santa Barbara, CA. I am constantly
-          learning and working towards creating clean and minimalistic design all while having it work on multiple
-          devcices, like phone and tablets. </p>
-        <br>
-        <p>I enjoy working on side project to allow me to continue learning and improving myself as a developer. I love
-          sports and have been doing some type of sports activity for the better part of my life.</p>
+      <div class="about inner-content" id="about">
+        <div class="about-wrapper homepage-panel">
+          <h2>About Me</h2>
+          <p>Hello there! My name's Freddy and I'am an aspiring developer from Santa Barbara, CA. I am constantly
+            learning and working towards creating clean and minimalistic design all while having it work on multiple
+            devcices, like phone and tablets. Currently enrolled in UCLA extensions coding boot camp.</p>
+          <br>
+          <p>I enjoy working on side project to allow me to continue learning and improving myself as a developer. I
+            love
+            sports and have been doing some type of sports activity for the better part of my life.</p>
+        </div>
+      </div>
+
+      <div class="link-boxes" id="projects">
+        <h2>Projects</h2>
+        <div class="link-box-wrapper">
+          <div class="link-box">
+            <a class="link-box link box-1" href="https://freddyt53.github.io/Train-Schedule/">
+              <div class="overlay top"></div>
+              <div class="lb-top-text">
+                <h3>Train Schedule</h3>
+                <p style="color:rgb(255, 247, 238)">In this project, I created a train schedule application that
+                  incorporates
+                  Firebase to host arrival and departure data.
+                  Using Moment.js I was able to retrieve and manipulate this information.
+                  The website will provide up-to-date information about various trains that are inputed,
+                  namely their arrival times and how many minutes remain until they arrive at their station.</p>
+              </div>
+              <div class="lb-overlay lb-bottom">
+                <h4>Click to View</h4>
+              </div>
+              <div class="lb-screen"></div>
+            </a>
+          </div>
+        </div>
+        <div class="link-box-wrapper">
+          <div class="link-box">
+            <a class="link-box link box-2" href="https://github.com/freddyt53/liri-node-app">
+              <div class="overlay top"></div>
+              <div class="lb-top-text">
+                <h3>Liri Bot App</h3>
+                <p style="color: rgb(255, 247, 238)">In this project, I created a node application that allows you to
+                  search items in a few categories.
+                  You will be able to look up song information from Spotify, movies from OMDB and concerts from Bands
+                  in Town.
+                  The technologies that were used are: JavaScript, Node.js, Spotify API, Bands in Town API and OMDB
+                  API.
+                  You can click below to see the repo.</p>
+              </div>
+              <div class="lb-overlay lb-bottom">
+                <h4>Click to View</h4>
+              </div>
+              <div class="lb-screen"></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="link-box-wrapper">
+          <div class="link-box">
+            <a class="link-box link box-3"
+              href="https://drive.google.com/file/d/150MrZ_KRKwYAz6w2nmFRBte8U2giI2WR/view?usp=sharing">
+              <div class="overlay top"></div>
+              <div class="lb-top-text">
+                <h3>Bamazon</h3>
+                <p style="color:rgb(255, 247, 238)"> This application implements a simple command line based storefront.
+                  This app is using the npm inquirer package, MySQL database backend together with the npm
+                  mysql package.
+                  The application presents two interfaces: customer and manager.
+                  Customer allows you to purchase and few the inventory while manager allows you to view
+                  inventory, add to stock or add an entirly new product.</p>
+              </div>
+              <div class="lb-overlay lb-bottom">
+                <h4>Click to View</h4>
+              </div>
+              <div class="lb-screen"></div>
+            </a>
+          </div>
+        </div>
+        <div class="link-box-wrapper">
+          <div class="link-box">
+            <a class="link-box link box-4" href="https://github.com/freddyt53/liri-node-app">
+              <div class="overlay top"></div>
+              <div class="lb-top-text">
+                <h3>Group Project</h3>
+                <p style="color: rgb(255, 247, 238)">In this project, I created a node application that allows you to
+                  search items in a few categories.
+                  You will be able to look up song information from Spotify, movies from OMDB and concerts from Bands
+                  in Town.
+                  The technologies that were used are: JavaScript, Node.js, Spotify API, Bands in Town API and OMDB
+                  API.
+                  You can click below to see the repo.</p>
+              </div>
+              <div class="lb-overlay lb-bottom">
+                <h4>Click to View</h4>
+              </div>
+              <div class="lb-screen"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-wrapper homepage-panel" id="contact">
+        <form method="POST" action="https://formspree.io/freddyt5371@gmail.com">
+          <h2>Contact Me</h2>
+          <form class="contact inner-content">
+            <input type="text" name="name" class="fname textinput" placeholder="First Name">
+            <input type="text" name="lastname" class="lname textinput" placeholder="Last Name">
+            <input type="email" name="_replyto" class="email textinput" placeholder="Email Address">
+            <textarea class="textinput" name="message" cols="40" rows="10" placeholder="Message"></textarea>
+            <input type="submit" class="submit" value="Submit" />
+          </form>
+          <br>
+          <footer class="container-fluid text-center" id="footer">
+            <p>You can find me at: <a href="https://github.com/freddyt53" target="github"><img
+                  src="assets/images/github.png" id="img"></a>
+              <a href="https://www.linkedin.com/in/freddy-torres-404a97107/" target="linkedin"><img
+                  src="assets/images/linkedin.png" id="img"></a>
+              <!-- <a href="https://stackoverflow.com" target="stackoverflow"><img src="assets/images/stackover2.png" id="img"></a> -->
+            </p>
+          </footer>
+      </div>
     </div>
   </div>
-  <footer class="container-fluid text-center" id="stickyFooter">
-    <p>You can find me at: <a href="https://github.com/freddyt53" target="github"><img src="assets/images/github.png" id="img"></a>
-      <a href="https://www.linkedin.com/in/freddy-torres-404a97107/" target="linkedin"><img src="assets/images/linkedin.png" id="img"></a>
-      <!-- <a href="https://stackoverflow.com" target="stackoverflow"><img src="assets/images/stackover2.png" id="img"></a> -->
-      &#169;Copyright 2018, Freddy Torres</p>
-  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 
 </html>
